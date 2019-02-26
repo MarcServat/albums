@@ -15,7 +15,7 @@ import AlbumList from './src/components/AlbumList';
 type Props = {};
 export default class App extends Component<Props> {
   render() {
-    const title = 'Albums'
+    const title = 'Albums';
     return (
         <View>
           <Header title={title}/>
