@@ -17,7 +17,7 @@ export default class App extends Component<Props> {
   render() {
     const title = 'Albums';
     return (
-        <View>
+        <View style={{flex: 1}}>
           <Header title={title}/>
           <AlbumList />
         </View>
